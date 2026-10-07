@@ -14,11 +14,27 @@ body {
 
     font-family: Arial, sans-serif;
 
-    line-height: 1.6;
-
-    background: #f4f6f8;
+    background: #e9ecef;
 
     color: #333;
+
+    line-height: 1.6;
+
+}
+
+
+
+.cv {
+
+    width: 850px;
+
+    max-width: 95%;
+
+    margin: 30px auto;
+
+    background: white;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 
 }
 
@@ -26,55 +42,47 @@ body {
 
 header {
 
-    background: #1f2937;
+    background: #263238;
 
     color: white;
 
-    text-align: center;
-
-    padding: 50px 20px;
+    padding: 40px;
 
 }
 
 
 
-header h1 {
+.profile {
 
-    font-size: 40px;
+    display: flex;
 
-    margin-bottom: 10px;
+    align-items: center;
 
-}
-
-
-
-header p {
-
-    font-size: 18px;
+    gap: 25px;
 
 }
 
 
 
-nav {
+.profile-placeholder {
 
-    background: #111827;
+    width: 110px;
 
-    text-align: center;
+    height: 110px;
 
-    padding: 15px;
+    border-radius: 50%;
 
-}
+    background: white;
 
+    color: #263238;
 
+    display: flex;
 
-nav a {
+    justify-content: center;
 
-    color: white;
+    align-items: center;
 
-    text-decoration: none;
-
-    margin: 0 15px;
+    font-size: 32px;
 
     font-weight: bold;
 
@@ -82,21 +90,31 @@ nav a {
 
 
 
-nav a:hover {
+.profile-details h1 {
 
-    text-decoration: underline;
+    font-size: 38px;
+
+    letter-spacing: 2px;
 
 }
 
 
 
-main {
+.profile-details h3 {
 
-    max-width: 900px;
+    font-size: 21px;
 
-    margin: 30px auto;
+    margin-top: 5px;
 
-    padding: 0 20px;
+    font-weight: normal;
+
+}
+
+
+
+.profile-details p {
+
+    margin-top: 5px;
 
 }
 
@@ -104,32 +122,6 @@ main {
 
 section {
 
-    background: white;
+    padding: 25px 40px;
 
-    margin-bottom: 25px;
-
-    padding: 30px;
-
-    border-radius: 10px;
-
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
-}
-
-
-
-section h2 {
-
-    margin-bottom: 15px;
-
-    color: #1f2937;
-
-    border-bottom: 2px solid #ddd;
-
-    padding-bottom: 8px;
-
-}
-
-
-
-section h
+    border
